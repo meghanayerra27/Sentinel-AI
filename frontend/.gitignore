@@ -1,24 +1,18 @@
-# Python
-venv/
-__pycache__/
-*.py[cod]
+# Dependencies
+node_modules/
 
-# Environment
+# Build output
+/dist/
+.vite/
+coverage/
+
+# Environment files
 .env
-backend/.env
+.env.*
+!.env.example
 
-# Uploads
-backend/uploads/
-
-# Cache
-backend/**/__pycache__/
-
-# Frontend
-frontend/node_modules/
-frontend/dist/
+# Local editor settings
+.vscode/
 
 # macOS
 .DS_Store
-
-# VS Code
-.vscode/
